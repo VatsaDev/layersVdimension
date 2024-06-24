@@ -19,9 +19,9 @@ batch_size = 64
 block_size = 256 # context of up to 256 previous characters
 
 # baby GPT model :)
-n_layer = 6
-n_head = 6
-n_embd = 384
+n_layer = 1
+n_head = 2
+n_embd = 2048
 dropout = 0.2
 
 learning_rate = 1e-3 # with baby networks can afford to go a bit higher
